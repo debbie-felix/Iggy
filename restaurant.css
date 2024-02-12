@@ -1,0 +1,72 @@
+
+.page {
+    font-family: 'Inter', sans-serif;  
+    padding-top: 120px; 
+    width: 100%;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    box-sizing: border-box;
+}
+
+
+.restaurant-action-pill{
+    padding: 5px 15px;
+    color: #FFFFFF ;
+    background-color: #201F24;
+    border-radius: 15px;
+
+
+
+}
+
+
+.dishes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dish {
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.dish-info {
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+    justify-content: start;
+    box-sizing: border-box;
+}
+
+.dish-category{
+    font-size: 11px;
+    font-weight: 300;
+    padding-top: 7px;
+    padding-bottom: 3px;
+
+}
+
+.restaurant-distance{
+    font-size: 10px;
+    font-weight: 300;
+    padding-top: 6px;
+    padding-bottom: 12px;
+
+}
+
+.rest-page-btn {
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 1px solid #FB6107;
+    background-color: #FB6107;
+    color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.rest-page-btn:active {
+    opacity: 0.5;
+}
